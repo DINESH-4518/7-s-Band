@@ -5,4 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: "/7-s-Band/",
   plugins: [react()],
+  build: {
+    outDir: "dist",
+  },
 });
