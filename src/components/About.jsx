@@ -1,6 +1,7 @@
 import React from "react";
 import members from "../members";
 import Entry from "./Entry";
+import Band from "../assets/Images/Band.jpg";
 
 
 function createCard(members){
@@ -23,7 +24,7 @@ function About(){
                 Welcome to our official band page! We are thrilled to share our journey with you. Here’s a bit about us:
             </p>
             <div className="about-section">
-                <img src={`/Images/Band.jpg`} alt="Band" className="about-image"/>
+                <img src={Band} alt="Band" className="about-image"/>
                 <div className="about-text">
                     <h2>Journey</h2>
                     <p>

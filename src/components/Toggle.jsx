@@ -2,6 +2,7 @@ import React from "react";
 import Music from "./Music";
 import About from "./About";
 import Contact from "./Contact";
+import Content from "./Content"
 import { Link } from "react-router-dom";
 
 function Toggle(){

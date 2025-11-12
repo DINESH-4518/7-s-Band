@@ -1,4 +1,5 @@
 import React from "react";
+import Saketh from "../assets/Images/Saketh.jpg";
 
 function Content(){
     return(
@@ -20,7 +21,7 @@ function Content(){
                         Stay tuned for dates and locations!
                     </p>
                 </div> 
-                <img src={`/Images/Saketh.jpg`} alt="Band" className="content-img"/>   
+                <img src={Saketh} alt="Band" className="content-img"/>   
             </div>
         </div>
     );

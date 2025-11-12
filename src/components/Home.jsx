@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Header from "./Header";
 import Toggle from "./Toggle";
 import Music from "./Music";
@@ -17,11 +17,13 @@ function Home(){
             <Header />
             <Toggle />
             <Routes>
-                <Route path="/" element={<Content />} />
-                <Route path="/home" element={<Content />} />
+                <Route path="/" element= {<Content />} />
+                // <Route index element={<Content />} />
+                <Route path="/Home" element={<Content />} />
                 <Route path="/music" element={<Music />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="*" element={<Content />} />
             </Routes>
             <Footer />
         </div>
