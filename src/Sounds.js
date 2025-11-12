@@ -1,4 +1,4 @@
-import pehle from "@/assets/Tracks/Saketh/pehle-bhi.mp3";
+import pehle from "@/assets/Tracks/Saketh/Pehle-bhi.mp3";
 import anuvanuvu from "@/assets/Tracks/Ashwin/Anuvanuvu.mp3";
 import mash from "@/assets/Tracks/Arun/Mash Up.mp3";
 import neevalle from "@/assets/Tracks/Saketh/Neevalle.mp3";
